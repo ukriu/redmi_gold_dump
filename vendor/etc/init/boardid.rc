@@ -1,0 +1,8 @@
+service board_id /vendor/bin/boardid_bin
+    class main
+    user root
+    oneshot
+    disabled
+
+on early-init
+    start board_id

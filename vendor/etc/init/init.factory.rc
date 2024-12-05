@@ -1,0 +1,14 @@
+#add this file.rc for factory function
+
+import /vendor/etc/init/init.factory.common.rc
+
+import /vendor/etc/init/init.factory.mtk.rc
+
+#add your service here
+
+
+
+
+
+
+
