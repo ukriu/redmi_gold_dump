@@ -1,0 +1,19 @@
+on post-fs-data
+	mkdir /data/local/log 0771 system system
+	mkdir /data/local/bootlog 0777 system system
+	chown system system /dev/mtd0
+
+on charger
+	mkdir /dev/rescue 0777 system system
+	mount ext4 /dev/block/bootdevice/by-name/rescue /dev/rescue noatime
+	mkdir /dev/rescue/poweroff_charger_log 0777 system system
+
+service mtdoopslog /system/bin/sh /system/bin/mtdoopslog.sh
+	class main
+	user system
+	group system
+	disabled
+	oneshot
+	seclabel u:r:mtdoopslog:s0
+	writepid  /dev/cpuset/background/tasks
+
