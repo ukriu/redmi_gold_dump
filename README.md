@@ -1,0 +1,20 @@
+## missi-user 15 AP3A.240905.015.A2 OS3.0.3.0.VNQMIXM release-keys
+- Manufacturer: xiaomi
+- Platform: mt6833
+- Codename: gold
+- Brand: Redmi
+- Flavor: missi-user
+- Release Version: 15
+- Kernel Version: 6.6.89
+- Id: AP3A.240905.015.A2
+- Incremental: OS3.0.3.0.VNQMIXM
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: en-GB
+- Screen Density: 480
+- Fingerprint: Redmi/vnd_gold/gold:15/AP3A.240905.015.A2/OS3.0.3.0.VNQMIXM:user/release-keys
+- OTA version: 
+- Branch: missi-user-15-AP3A.240905.015.A2-OS3.0.3.0.VNQMIXM-release-keys
+- Repo: redmi_gold_dump
