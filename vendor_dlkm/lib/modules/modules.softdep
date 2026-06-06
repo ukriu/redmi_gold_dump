@@ -1,0 +1,5 @@
+# Soft dependencies extracted from modules themselves.
+softdep mali_kbase_mt6833_r49 pre: memory_group_manager
+softdep mtk_sec_heap pre: apusys
+softdep gz_tz_system pre: gz_virtio_mod.ko
+softdep gz_tz_system pre: gz_irq_mod.ko
