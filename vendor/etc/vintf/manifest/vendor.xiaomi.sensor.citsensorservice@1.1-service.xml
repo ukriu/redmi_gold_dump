@@ -1,0 +1,11 @@
+<!--
+    Input:
+        vendor/xiaomi/proprietary/sensor/citsensorservice-hidl-impl/vendor.xiaomi.sensor.citsensorservice@1.1-service.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="hidl">
+        <name>vendor.xiaomi.sensor.citsensorservice</name>
+        <transport>hwbinder</transport>
+        <fqname>@1.1::ICitSensorService/default</fqname>
+    </hal>
+</manifest>

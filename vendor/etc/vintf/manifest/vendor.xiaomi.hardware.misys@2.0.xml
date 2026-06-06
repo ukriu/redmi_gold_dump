@@ -1,0 +1,11 @@
+<!--
+    Input:
+        vendor/xiaomi/proprietary/misys/2.0/default/vendor.xiaomi.hardware.misys@2.0.xml
+-->
+<manifest version="8.0" type="device">
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.misys</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IMiSys/default</fqname>
+    </hal>
+</manifest>

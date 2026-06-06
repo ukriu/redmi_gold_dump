@@ -1,0 +1,3 @@
+user=_app seinfo=platform name=com.trustonic.tuiservice domain=mobicore_app type=app_data_file levelFrom=user
+user=system seinfo=platform name=com.mi.AutoTest domain=cittest_app type=system_app_data_file levelFrom=user
+user=system seinfo=platform name=com.miui.qr domain=cqrtest_app type=system_app_data_file levelFrom=user

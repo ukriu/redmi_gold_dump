@@ -1,0 +1,49 @@
+{
+  "PipelineName": "RawSuperlightPlugin",
+  "NodesList": {
+    "Node": [
+      {
+        "NodeName": "com.xiaomi.plugin.superlowlight",
+        "NodeInstance": "SuperlightInstance"
+      },
+      {
+        "NodeName": "com.xiaomi.plugin.skinbeautifier",
+        "NodeInstance": "SkinInstance"
+      }
+    ]
+  },
+  "PortLinkages": {
+    "Link": [
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance": "SourceBuffer"
+        },
+        "DstPort": {
+          "PortId": 0,
+          "NodeInstance": "SuperlightInstance"
+        }
+      }, 
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance": "SuperlightInstance"
+        },
+        "DstPort": {
+          "PortId": 0,
+          "NodeInstance": "SkinInstance"
+        }
+      },
+      {
+        "SrcPort": {
+          "PortId": 0,
+          "NodeInstance": "SkinInstance"
+        },
+        "DstPort": {
+          "PortId": 0,
+          "NodeInstance": "SinkBuffer"
+        }
+      }
+    ]
+  }
+}

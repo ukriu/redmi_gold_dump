@@ -1,0 +1,8 @@
+service vendor.mitee.soterservice /vendor/bin/soterd
+    class hal
+    user system
+    group system
+    disabled
+# N17 code for HQ-292419 by yangjinhao at 2023/05/19
+on property:sys.boot_completed=1
+    start vendor.mitee.soterservice
