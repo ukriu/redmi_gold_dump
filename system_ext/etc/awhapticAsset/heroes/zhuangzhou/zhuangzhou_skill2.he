@@ -1,0 +1,1 @@
+{"Metadata": {"Version": 2, "Created": "2025/03/20", "Description": "Export from awinic"}, "PatternList": [{"AbsoluteTime": 0, "Pattern": [{"Event": {"Type": "transient", "RelativeTime": 0, "Parameters": {"Intensity": 65, "Frequency": 20}, "Index": 0}}, {"Event": {"Type": "transient", "RelativeTime": 130, "Parameters": {"Intensity": 40, "Frequency": 20}, "Index": 0}}]}]}

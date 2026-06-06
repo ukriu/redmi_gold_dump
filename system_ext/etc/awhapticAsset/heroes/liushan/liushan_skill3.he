@@ -1,0 +1,464 @@
+{
+	"Metadata": {
+		"Version": 2,
+		"Created": "2025/05/21",
+		"Description": "Export from awinic"
+	},
+	"PatternList": [{
+		"AbsoluteTime": 0,
+		"Pattern": [{
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 0,
+				"Duration": 100,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -50
+					}, {
+						"Time": 0,
+						"Intensity": 0.5,
+						"Frequency": -50
+					}, {
+						"Time": 100,
+						"Intensity": 0.5,
+						"Frequency": -50
+					}, {
+						"Time": 100,
+						"Intensity": 0.0,
+						"Frequency": -50
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "transient",
+				"RelativeTime": 190,
+				"Parameters": {
+					"Intensity": 20,
+					"Frequency": 30
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "transient",
+				"RelativeTime": 320,
+				"Parameters": {
+					"Intensity": 90,
+					"Frequency": 50
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 500,
+				"Duration": 100,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -50
+					}, {
+						"Time": 0,
+						"Intensity": 0.55,
+						"Frequency": -50
+					}, {
+						"Time": 100,
+						"Intensity": 0.55,
+						"Frequency": -50
+					}, {
+						"Time": 100,
+						"Intensity": 0.0,
+						"Frequency": -50
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "transient",
+				"RelativeTime": 630,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 60
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 740,
+				"Duration": 90,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 32,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 90,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 920,
+				"Duration": 70,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 17,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 70,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 1060,
+				"Duration": 80,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 28,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 80,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 1249,
+				"Duration": 70,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 20,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 70,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 1400,
+				"Duration": 90,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 31,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 90,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 1580,
+				"Duration": 70,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 15,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 70,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 1760,
+				"Duration": 80,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 27,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 80,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 1940,
+				"Duration": 80,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 41,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 80,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 2120,
+				"Duration": 80,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 30,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 80,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 2300,
+				"Duration": 80,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 38,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 80,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 2480,
+				"Duration": 80,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 34,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 80,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}]
+	}, {
+		"AbsoluteTime": 2660,
+		"Pattern": [{
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 0,
+				"Duration": 80,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}, {
+						"Time": 0,
+						"Intensity": 0.3,
+						"Frequency": -60
+					}, {
+						"Time": 42,
+						"Intensity": 0.7,
+						"Frequency": -60
+					}, {
+						"Time": 80,
+						"Intensity": 0.0,
+						"Frequency": -60
+					}]
+				},
+				"Index": 0
+			}
+		}, {
+			"Event": {
+				"Type": "continuous",
+				"RelativeTime": 463,
+				"Duration": 120,
+				"Parameters": {
+					"Intensity": 100,
+					"Frequency": 100,
+					"Curve": [{
+						"Time": 0,
+						"Intensity": 0.0,
+						"Frequency": -50
+					}, {
+						"Time": 0,
+						"Intensity": 1.0,
+						"Frequency": -50
+					}, {
+						"Time": 120,
+						"Intensity": 1.0,
+						"Frequency": -50
+					}, {
+						"Time": 120,
+						"Intensity": 0.0,
+						"Frequency": -50
+					}]
+				},
+				"Index": 0
+			}
+		}]
+	}]
+}
